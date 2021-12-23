@@ -43,4 +43,7 @@ composer.phar
 # Support for Project snippet scope
 !.vscode/*.code-snippets
 
+### Docker
+/tmp/*
+
 # End of https://www.toptal.com/developers/gitignore/api/phpunit,visualstudiocode,composer

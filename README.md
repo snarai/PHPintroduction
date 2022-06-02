@@ -1,4 +1,4 @@
-# PHPintroduction
+# PHPintroduction のユニットテスト
 
 PHP学習用のDocker環境  
 以下の書籍を想定しています。  
@@ -28,3 +28,21 @@ SELECT * from sample_table;
 ```
 
 `http://localhost/db.php` で `sample_table` のデータが取得して見れること
+
+
+### テストコード作成
+https://github.com/snarai/PHPintroduction/blob/main/src/testcode/sampleTest.php
+
+
+### 任意のツールを用いてUnit Testを実行
+
+PHPUnitを利用。
+https://qiita.com/C_HERO/items/0865da7f58ec82d5aec7
+
+Macへの導入はbrew installを利用
+https://qiita.com/ponsuke0531/items/365b9463cd381585a9a3
+
+MacでインストールしたPHPUnitをDocker内にコピーして利用。
+
+$ cp phpunit /usr/local/bin/
+$ chmod +x phpunit
